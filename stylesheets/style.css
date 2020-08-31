@@ -1,0 +1,137 @@
+body {
+  background-color: #fff;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #08c;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.spacer {
+  min-height: 65px;
+  background: none transparent;
+}
+
+#navbar {
+  width: 980px;
+  height: 36px;
+  position: relative;
+  top: 18px;
+  margin: 0 auto;
+  background-color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, 0.45) 100%), linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 0.2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, 0.2) 100%), url(../images/navbar.png), linear-gradient(rgb(102, 102, 102) 0%, rgb(94, 94, 94) 50%, rgb(112, 112, 112) 51%, rgb(128, 128, 128) 100%);
+  z-index: 1;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 845px;
+  height: 36px;
+  display: flex;
+}
+
+.navitem {
+  width: 100%;
+  overflow: hidden;
+  height: 36px;
+  background-image: url(../images/nav_text.png);
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-width: 0 2px 0 1px;
+  border-image: url(../images/navborder.png) 0 2 0 1;
+  box-sizing: border-box;
+}
+
+.navitem:first-of-type {
+  border-width: 0 2px 0 0;
+  padding-right: 1px;
+}
+
+.navitem a {
+  display: block;
+  height: 36px;
+  width: 100%;
+  position: relative;
+}
+
+.apple {
+  background-position: 50% 3px;
+}
+
+.store {
+  background-position: 50% -27px;
+}
+
+.mac {
+  background-position: 50% -57px;
+}
+
+.ipod {
+  background-position: 50% -87px;
+}
+
+.iphone {
+  background-position: 50% -117px;
+}
+
+.ipad {
+  background-position: 50% -147px;
+}
+
+.itunes {
+  background-position: 50% -177px;
+}
+
+.support {
+  background-position: 50% -207px;
+}
+
+.search {
+  width: 132px;
+  padding: 8px 13px;
+  border-width: 0 2px 0 1px;
+  border-image: url(../images/navborder.png) 0 2 0 1;
+  position: relative;
+}
+
+.searchbox {
+  width: 100%;
+  height: auto;
+  background-color: rgba(225,225,225,.1);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.2) 0px 1px 0px 0px;
+  color: rgb(255, 255, 255);
+  position: relative;
+}
+
+.searchtext {
+  width: 100%;
+  height: 19px;
+  padding: 2px 18px 1px 22px;
+  border-radius: 12px;
+  background: transparent;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  width: 15px;
+  height: 14px;
+}
